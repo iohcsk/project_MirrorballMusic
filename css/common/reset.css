@@ -15,22 +15,37 @@
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-    color: #333;
-    cursor: pointer;
-}
+html {
+    font-size:0.625em;
+} 
 
-img {
-    display: block;
-    border: none;
+body,h1,h2,h3,h4,h5,h6,button {
+    color:#222;
+    font-family: 'Lato', 'KoPubDotumMedium', sans-serif;
+    font-weight: bold;
 }
 
 ol, ul, li {
     list-style: none;
 }
 
-body {
-    font-family: 'Lato', 'KoPubDotumMedium', sans-serif;
-    color: #111;
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #222;
+}
+
+img {
+    border: none;
+    max-width: 100%;
+}
+
+button{
+    border:none;
+    background-color:transparent;
+    cursor:pointer;
+}
+
+select, label, input[type=radio] {
+    cursor: pointer;
 }
