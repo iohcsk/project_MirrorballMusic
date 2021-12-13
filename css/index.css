@@ -259,6 +259,7 @@
 .clips iframe {
     width: 32%;
     height: 240px;
+    border: none;
 }
 
 /* contents4 */
