@@ -49,3 +49,7 @@ button{
 select, label, input[type=radio] {
     cursor: pointer;
 }
+
+iframe {
+    border: none;
+}
